@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleção Brasileira | Notícias em Foco</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Notícias em Foco</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Política</a></li>
+                    <li><a href="#">Economia</a></li>
+                    <li><a href="#">Tecnologia</a></li>
+                    <li><a href="#">Esportes</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="main-content">
+            <main class="full-article">
+                <article>
+                    <h1>Seleção brasileira anuncia lista de convocados para amistosos internacionais</h1>
+                    <div class="article-meta">Publicado em 13/06/2023 por Roberto Santos</div>
+                    
+                    <p>O técnico Fernando Diniz divulgou hoje a lista de 23 jogadores que representarão o Brasil nos amistosos contra Argentina (dia 20/06) e Colômbia (24/06). A lista traz algumas surpresas, com a inclusão de jovens promessas como Endrick (Palmeiras, 17 anos) e Vitor Roque (Athletico-PR, 18 anos), e a ausência de veteranos como Daniel Alves e Thiago Silva.</p>
+                    
+                    <p>"Estamos em um processo de renovação, mas sem perder a identidade da Seleção. Esses jogos serão importantes para testar novas opções", afirmou Diniz em coletiva.</p>
+                    
+                    <div class="ad-in-article">
+                        <p>Publicidade</p>
+                        <img src="c:\Users\labosasco\Downloads\3168103383240669270.png" alt="Publicidade" class="ad-image">
+                    </div>
+                    
+                    <h3>Destaques da Convocação</h3>
+                    <ul>
+                        <li><strong>Goleiros:</strong> Alisson (Liverpool), Ederson (Man City), Bento (Athletico-PR)</li>
+                        <li><strong>Defensores:</strong> Militão (Real Madrid), Marquinhos (PSG), Gabriel Magalhães (Arsenal)</li>
+                        <li><strong>Meio-campistas:</strong> Casemiro (Man United), Bruno Guimarães (Newcastle), Joelinton (Newcastle)</li>
+                        <li><strong>Atacantes:</strong> Vinicius Jr (Real Madrid), Rodrygo (Real Madrid), Neymar (Al-Hilal), Endrick (Palmeiras)</li>
+                    </ul>
+                    
+                    <p>A novidade fica por conta do meia Lucas Paquetá (West Ham), que vem de ótima temporada na Premier League e assume a camisa 10 na ausência de Neymar, que se recupera de lesão.</p>
+                    
+                    <a href="index.html" class="back-button">Voltar para Notícias</a>
+                </article>
+                
+                <section class="comments">
+                    <h2>Comentários</h2>
+                    
+                    <div class="comment-form">
+                        <h3>Deixe seu comentário</h3>
+                        <input type="text" id="comment-author" placeholder="Seu nome" required>
+                        <textarea id="comment-text" placeholder="Escreva seu comentário aqui..." required></textarea>
+                        <button onclick="addComment('noticia3')">Enviar Comentário</button>
+                    </div>
+                    
+                    <div id="comments-container">
+                        <!-- Comentários carregados pelo JavaScript -->
+                    </div>
+                </section>
+            </main>
+            
+            <aside class="sidebar">
+                <div class="ad-space">
+                    <p>Publicidade</p>
+                    <img src="c:\Users\labosasco\Downloads\jonbet-logo.jpeg" alt="Publicidade" class="ad-image">
+                </div>
+                
+                <div>
+                    <h3>Notícias Relacionadas</h3>
+                    <ul>
+                        <li><a href="noticia1.html">Novo avanço na inteligência artificial</a></li>
+                        <li><a href="noticia2.html">Economia brasileira em recuperação</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Notícias em Foco - Todos os direitos reservados</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+    <script>
+        window.onload = function() {
+            loadComments('noticia3');
+        };
+    </script>
+</body>
+</html>
